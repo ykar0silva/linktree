@@ -11,34 +11,37 @@ header{
     color: white !important; 
     text-align: center !important;
     justify-content: center !important;
+    padding: 2em;
 }  
+footer{
+    text-align: center !important;
+    color: white !important;
+
+
+}
+
 .img-perfil{
     width: 10% !important;
     border-radius: 50% !important;
 
 } 
 .txt-perfil{
-    margin-top: 0.6em !important;
-    font-size: 10em !important;
+    margin-top: 0.5em;
+    font-size: 200% !important;
  
 }
-footer{
-    text-align: center !important;
-    color: white !important;
-    font-size: 10em !important;
 
-}
 .txt-icon{
-    font-size: 10em !important;
-    padding-top: 6% !important;
+    font-size: 250% !important;
+    padding-top: 3% !important;
 }
 
 
 .content {
     width: 100% !important;
     background-color: rgba(88, 88, 88, 0.596);
-    padding: 2em !important;
-    margin-top: 10em !important;
+    padding:4% !important;
+    margin-top: 2em !important;
     border-radius: 2em !important;
     color: white;
 }
@@ -50,7 +53,7 @@ footer{
     margin-bottom: 15% !important;
 }
 .img-icon{
-    width: 100% !important;   
+    width: 50% !important;   
 }
 a{
     text-decoration: none;
@@ -81,6 +84,11 @@ a{
         margin-right: 25% !important;
         margin-top: 1% !important;
         margin-bottom: 15% !important;
+    }
+    .txt-perfil{
+        margin-top: 0.6em !important;
+        font-size: 200% !important;
+     
     }
 
 }
