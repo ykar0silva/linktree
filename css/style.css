@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: Arial, sans-serif;
+    background-image: url('/img/fundo.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center; 
+    background-color: #f4f4f4;
+}
+header{
+    margin-top: 10em;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+
+}
+.txt-icon{
+    font-size: 200%;
+    padding-top: 6%;
+    z-index: 2;
+    position: relative;
+}
+.img-perfil{
+    width: 15%;
+    border-radius: 50%;
+    z-index: 2;
+    position: relative;
+}
+.txt-icon{
+    opacity: 1 !important;
+}
+
+.content {
+    width: 100% !important;
+    background-color: rgba(0, 0, 0, 0.596);
+    padding: 2em !important;
+    margin-top: 4em !important;
+    border-radius: 2em !important;
+    color: white;
+    
+}
+
+
+.principal{
+    text-align: center !important;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    margin-top: 1% !important;
+    margin-bottom: 15% !important;
+}
+.img-icon{
+    width: 100% !important;
+    
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black !important;
+}
+@media (min-width: 200px) and (max-width: 768px){
+    .img-icon{
+        width: 250%;
+    }
+    .txt-icon{
+        font-size: 220%;
+    }
+    .content{
+        width: 130% !important;
+        background-color: rgba(0, 0, 0, 0.596) !important;
+        padding: 1em !important;
+        margin-top: 2em !important;
+        border-radius: 1em !important;
+        margin-left: 0%;
+    }
+    .principal{
+        text-align: center !important;
+        margin-left: 10% !important;
+        margin-right: 25% !important;
+        margin-top: 1% !important;
+        margin-bottom: 15% !important;
+    }
+}
